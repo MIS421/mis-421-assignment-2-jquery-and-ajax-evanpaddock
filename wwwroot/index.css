@@ -1,2 +1,9 @@
-﻿
-
+﻿#myTextArea, textarea {
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
