@@ -2,6 +2,8 @@
 var results = '';
 
 function apiSearch() {
+    results = ''
+    
     var params = {
         "q": $("#query").val(),
         "count": "50",

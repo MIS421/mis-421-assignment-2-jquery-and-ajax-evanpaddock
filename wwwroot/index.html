@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <title>Hello World</title>
+  <head>
+    <title>Monke Search</title>
+    <link rel="shortcut icon" href="./images/banana.ico" />
 
     <!-- JQuery UI Theme CSS CDN -->
-    <link rel="stylesheet"
-          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/pepper-grinder/jquery-ui.css"
-          integrity="sha384-sqqDPqey9c5z9di0RN8pCagFkGsvQJ6zqdEbpRPzr26gnpplXNr8u4xnbzf1L9PA"
-          crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/pepper-grinder/jquery-ui.css"
+      integrity="sha384-sqqDPqey9c5z9di0RN8pCagFkGsvQJ6zqdEbpRPzr26gnpplXNr8u4xnbzf1L9PA"
+      crossorigin="anonymous"
+    />
 
     <!--Local CSS-->
-    <link rel="stylesheet" href="./index.css">
-
-</head>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
   <body>
-    <h1>Hello World</h1>
-    <textarea
-      id="myTextArea"
-      placeholder="Please enter your search here..."
-      maxlength="300"
-    ></textarea>
+    <div id="maincontent">
+      <h1 id="title">Monke Search</h1>
+      <textarea
+        id="myTextArea"
+        class="ui-widget ui-state-default ui-corner-all"
+        placeholder="Let monke guide you..."
+        maxlength="300"
+      ></textarea>
       <br />
-    <button type="button" id="myBtn">Show Value</button>
-
+      <button
+        class="ui-button ui-corner-all ui-widget"
+        type="button"
+        id="myBtn"
+      >
+        Pay banana tribute
+      </button>
+    </div>
     <!--Local JS-->
     <script type="text/javascript" src="./script.js"></script>
 
