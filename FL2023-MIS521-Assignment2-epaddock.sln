@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL2023-MIS521-Assignment2-epaddock", "FL2023-MIS521-Assignment2-epaddock.csproj", "{F59B8C2D-44C8-4EE2-8AF7-7E4F1348E2C3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL2023-Assignment1-epaddock", "..\..\..\FL2023-MIS521-Assignment1-epaddock\FL2023-Assignment1-epaddock\FL2023-Assignment1-epaddock.csproj", "{06BD3FDD-E283-46F3-875D-AD0D0BBDDDCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL2023-MIS521-Assignment2-epaddock", "FL2023-MIS521-Assignment2-epaddock.csproj", "{F59B8C2D-44C8-4EE2-8AF7-7E4F1348E2C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{F59B8C2D-44C8-4EE2-8AF7-7E4F1348E2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F59B8C2D-44C8-4EE2-8AF7-7E4F1348E2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F59B8C2D-44C8-4EE2-8AF7-7E4F1348E2C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06BD3FDD-E283-46F3-875D-AD0D0BBDDDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06BD3FDD-E283-46F3-875D-AD0D0BBDDDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06BD3FDD-E283-46F3-875D-AD0D0BBDDDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06BD3FDD-E283-46F3-875D-AD0D0BBDDDCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

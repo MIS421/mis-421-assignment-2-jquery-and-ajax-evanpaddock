@@ -16,11 +16,11 @@
     <!--Local CSS-->
     <link rel="stylesheet" href="./index.css" />
   </head>
-  <body>
+  <body id="body">
     <div id="maincontent">
-      <h1 id="title">Monke Search</h1>
+      <h1 id="title" onclick="backgroundImageChanger()">Monke Search</h1>
       <textarea
-        id="myTextArea"
+        id="query"
         class="ui-widget ui-state-default ui-corner-all"
         placeholder="Let monke guide you..."
         maxlength="300"
@@ -30,19 +30,31 @@
         class="ui-button ui-corner-all ui-widget"
         type="button"
         id="myBtn"
+        value="Search"
+        onclick="QuerySearch()"
       >
-        Pay banana tribute
+        Pay Banana Tribute
+      </button>
+      <button
+        class="ui-button ui-corner-all ui-widget"
+        type="button"
+        id="myBtn"
+        value="Search"
+        onclick="updateTimeTextBox()"
+      >
+        Current Island Time
+      </button>
+      <button class="ui-button ui-corner-all ui-widget" id="luckyBanana" onclick="findLuckyBanana()">
+        Find the Golden Banana
       </button>
     </div>
-    <!--Local JS-->
-    <script type="text/javascript" src="./script.js"></script>
+
+    <div id="searchResults"></div>
+
+    <div id="time"></div>
 
     <!-- JQuery JS CDN -->
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
     <!-- JQurey UI JS CDN -->
     <script
@@ -50,5 +62,8 @@
       integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL"
       crossorigin="anonymous"
     ></script>
+
+    <!--Local JS-->
+    <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
